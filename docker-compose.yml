@@ -1,6 +1,7 @@
 services:
   web:
     image: ahmedmorad101/web-app
+    build: .
     ports:
       - "80:80"
     deploy:
