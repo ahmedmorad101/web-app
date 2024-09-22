@@ -1,8 +1,6 @@
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ahmedmorad101/web-app
     ports:
       - "80:80"
     deploy:
